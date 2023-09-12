@@ -29,8 +29,8 @@ if __name__ == "__main__":
 
     chain = LLMChain(llm=llm, prompt=summary_prompt_template)
 
-    linkedin_data = gist_response_lkprof ()
-    #print(linkedin_data)
+    linkedin_data = gist_response_lkprof()
+    # print(linkedin_data)
 
     #  linkedin_data = scrape_linkedin_profile(
     #     linkedin_profile_url="https://www.linkedin.com/in/harrison-chase-961287118/"
