@@ -27,6 +27,12 @@ if __name__ == "__main__":
         linkedin_profile_url=linkedin_profile_url
     )
 
+    #####  Real deploying for Twitter Extraction 
+    
+    #twitter_username = twitter_lookup_agent(name=name)
+    #tweets = scrape_user_tweets(username=twitter_username, num_tweets=5)
+    #####
+    
     #twitter_username = twitter_lookup_agent(name=name)
     tweets = scrape_user_tweets(username=name, num_tweets=100)
 
